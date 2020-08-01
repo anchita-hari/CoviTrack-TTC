@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>CoviTrack Health Officials Portal</title>
+        <link rel="icon" href="imgs/covitrack_logo.jpg">
+
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <h1 style="text-align: center;">COVID-19 Positive Cases</h1>
+        <form>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="status" style="font-size: 135%;">Verification Status</label>
+                    <select id="status" class="form-control">
+                        <option selected></option>
+                        <option>Verified</option>
+                        <option>Self-Reported</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+
+        <section>
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">person1@vt.edu</a>
+                            <span class="badge badge-primary badge-pill pull-right">Verified</span>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <p><strong>Name:</strong> Person One</p>
+                            <p class="verified"><strong>Case Status:</strong> Verified</p>
+                            <p><strong>Bus:</strong></p>
+                            <ul>
+                                <li>MSN</li>
+                                <li>TOM</li>
+                            </ul>
+                            <p><strong>Agency Vehicle ID:</strong></p>
+                            <ul>
+                                <li>1234</li>
+                                <li>2341</li>
+                            </ul>
+                            <p><strong>Symptoms:</strong></p>
+                            <ul>
+                                <li>coughing</li>
+                                <li>sore throat</li>
+                                <li>vomiting</li>
+                            </ul>
+                            <p><strong>Contacted:</strong></p>
+                            <ul>
+                                <li>person2@vt.edu</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">person2@vt.edu</a>
+                            <span class="badge badge-primary badge-pill pull-right">Verified</span>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p><strong>Name:</strong> Person Two</p>
+                            <p class="verified"><strong>Case Status:</strong> Verified</p>
+                            <p><strong>Bus:</strong></p>
+                            <ul>
+                                <li>TOM</li>
+                            </ul>
+                            <p><strong>Agency Vehicle ID:</strong></p>
+                            <ul>
+                                <li>2341</li>
+                            </ul>
+                            <p><strong>Symptoms:</strong></p>
+                            <ul>
+                                <li>coughing</li>
+                                <li>high fever</li>
+                                <li>difficulty breathing</li>
+                            </ul>
+                            <p><strong>Contacted:</strong></p>
+                            <ul>
+                                <li>person1@vt.edu</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">person3@vt.edu</a>
+                            <span class="badge badge-primary badge-pill pull-right">Self-Reported</span>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p><strong>Name:</strong> Person Three</p>
+                            <p class="self-report"><strong>Case Status:</strong> Self-Reported</p>
+                            <p><strong>Bus:</strong></p>
+                            <ul>
+                                <li>TOM</li>
+                            </ul>
+                            <p><strong>Agency Vehicle ID:</strong></p>
+                            <ul>
+                                <li>2341</li>
+                            </ul>
+                            <p><strong>Symptoms:</strong></p>
+                            <ul>
+                                <li>coughing</li>
+                                <li>sore throat</li>
+                            </ul>
+                            <p><strong>Contacted:</strong></p>
+                            <ul>
+                                <li>person1@vt.edu</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+    </body>
+
+</html>
