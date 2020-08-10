@@ -1,5 +1,4 @@
 body {
-    text-align: center;
     padding: 0% 15% 0% 15%;
 }
 
@@ -7,8 +6,12 @@ form {
     padding-top: 2%;
 }
 
+#exit {
+    font-size: 120%;
+    margin-top: 3%;
+}
+
 section {
     text-align: left;
     padding-top: 2%;
 }
-
