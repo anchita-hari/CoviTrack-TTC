@@ -33,66 +33,72 @@
             </div>
         </form>
 
+        <button class="btn btn-primary" style="margin: 0% 1% 1% 0%;" onclick="toCodes()">Scan Results</button>
+        <button class="btn btn-primary" style="margin: 0% 0% 1% 0%;" onclick="toHome()">All Cases</button>
+
         <section>
             <div class="panel-group" id="accordion">
+                <h2>8-10 days:</h2>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">person3@vt.edu</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Sara Jensen, sjensen@vt.edu</a>
                             <span class="badge badge-primary badge-pill pull-right">Self-Reported</span>
                         </h4>
                     </div>
                     <div id="collapse3" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <p><strong>Name:</strong> Person Three</p>
+                            <!-- <p><strong>Name:</strong> Sara Jensen</p> -->
                             <!-- <p class="self-report"><strong>Case Status:</strong> Self-Reported</p> -->
-                            <p><strong>Bus:</strong></p>
+                            <p><strong>Bus (Agency Vehicle ID):</strong></p>
                             <ul>
-                                <li>TOM</li>
-                            </ul>
-                            <p><strong>Agency Vehicle ID:</strong></p>
-                            <ul>
-                                <li>2341</li>
+                                <li>TOM (2341)</li>
                             </ul>
                             <p><strong>Symptoms:</strong></p>
                             <ul>
                                 <li>coughing</li>
                                 <li>sore throat</li>
                             </ul>
+                            <p><strong>Duration of Symptoms:</strong></p>
+                            <ul>
+                                <li>8-10 days</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+                <h2 style="margin-top: 3%;">4-7 days:</h2>
+                <h2 style="margin-top: 3%;">1-3 days:</h2>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">person4@vt.edu</a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Jet Chaney, jchaney@vt.edu</a>
                             <span class="badge badge-primary badge-pill pull-right">Self-Reported</span>
                         </h4>
                     </div>
                     <div id="collapse4" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <p><strong>Name:</strong> Person Four</p>
+                            <!-- <p><strong>Name:</strong> Jet Chaney</p> -->
                             <!-- <p class="self-report"><strong>Case Status:</strong> Self-Reported</p> -->
-                            <p><strong>Bus:</strong></p>
+                            <p><strong>Bus (Agency Vehicle ID):</strong></p>
                             <ul>
-                                <li>MSN</li>
-                            </ul>
-                            <p><strong>Agency Vehicle ID:</strong></p>
-                            <ul>
-                                <li>1234</li>
+                                <li>MSN (1234)</li>
                             </ul>
                             <p><strong>Symptoms:</strong></p>
                             <ul>
                                 <li>coughing</li>
                                 <li>high fever</li>
                             </ul>  
+                            <p><strong>Duration of Symptoms:</strong></p>
+                            <ul>
+                                <li>1-3 days</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div> 
         </section>
 
-        <button class="btn btn-primary" style="margin-top: 2%;" onclick="toHome()">All Cases</button>
+        
     </body>
 
 </html>

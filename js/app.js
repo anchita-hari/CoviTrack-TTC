@@ -12,8 +12,8 @@ function toHome() {
     location.href = 'index.html';
 }
 
-function newCase() {
-    location.href = 'new_case.html';
+function toCodes() {
+    location.href = 'scan_results.html';
 }
 
 function submitForm() {
